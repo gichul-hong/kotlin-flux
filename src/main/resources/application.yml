@@ -1,0 +1,4 @@
+server:
+  port: 8000
+springdoc:
+  packages-to-scan: com.sec.aip.sharedpool
