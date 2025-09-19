@@ -3,6 +3,13 @@ spring:
     user:
       name: admin
       password: password
+  r2dbc:
+    url: r2dbc:h2:mem:///testdb
+    username: sa
+    password: 
+  sql:
+    init:
+      mode: never
 server:
   port: 8000
 springdoc:
