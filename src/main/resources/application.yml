@@ -1,3 +1,8 @@
+spring:
+  security:
+    user:
+      name: admin
+      password: password
 server:
   port: 8000
 springdoc:
